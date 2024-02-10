@@ -22,6 +22,9 @@
         display: inline-block;
         width: 20%;
         margin: 0 8px;
+        @media screen and (max-width:768px) {
+            width: 45%;
+        }
         p {
             font-size: .9rem;
         }

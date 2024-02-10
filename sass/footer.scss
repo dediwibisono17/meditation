@@ -1,0 +1,35 @@
+footer {
+    background: $hijau;
+    min-height: auto;
+    position: relative;
+    .bgbg {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        opacity: .1;
+        height: 100%;
+        img {
+            width: 100%;
+        height: 100%;
+        object-fit: cover;
+        }
+        // background-image: url("../img/testimonial-bg.jpg");
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    a {
+        color:  white;
+        &:hover {
+            color: $kuning;
+            text-decoration: none;
+        }
+    }
+
+    h3 {
+        color: $kuning;
+        font-family: 'DM Serif Display';
+    }
+
+}
