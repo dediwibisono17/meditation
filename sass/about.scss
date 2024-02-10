@@ -1,0 +1,45 @@
+
+.about {
+    min-height: auto;
+    background-image: url('../img/pattern-chakras-alt-color.png');
+        background-repeat: repeat;
+        padding: 16px 0;
+    h3 {
+        font-family: 'DM Serif Display', sans-serif;
+        font-size: 1.8rem;
+
+    }
+    h4 {
+        font-size: 1.2rem;
+        font-weight: bold;
+        // font-family: 'DM Serif Display', sans-serif;
+        // color: $hijau;
+    }
+    .all-sub-content {
+        display: block;
+    }
+    .sub-content {
+        display: inline-block;
+        width: 20%;
+        margin: 0 8px;
+        p {
+            font-size: .9rem;
+        }
+
+    }
+
+    .img {
+        width: 130px;
+        height: 130px;
+        margin: 16px auto 24px;
+        display: block;
+        border: 3px solid $hijau;
+        text-align: center;
+        border-radius: 50%;
+        img {
+            width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        }
+    }
+}
