@@ -2,6 +2,7 @@ footer {
     background: $hijau;
     min-height: auto;
     position: relative;
+    padding: 16px;
     .bgbg {
         position: absolute;
         inset: 0;
@@ -30,6 +31,12 @@ footer {
     h3 {
         color: $kuning;
         font-family: 'DM Serif Display';
+    }
+
+    .copyright {
+        border-top: 1px solid white;
+        padding-top: 16px;
+        font-size: .8rem;
     }
 
 }
