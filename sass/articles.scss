@@ -81,6 +81,9 @@
 }
 
 .pagination {
+    .page-input {
+        width: 80px;
+    }
     li {
         a {
             &:hover, &:active, &:focus {
