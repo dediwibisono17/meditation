@@ -81,8 +81,11 @@
 }
 
 .pagination {
+    .form-control {
+        text-align: center;
+    }
     .page-input {
-        width: 80px;
+        width: 60px;
     }
     li {
         a {
