@@ -1,4 +1,7 @@
 .banner {
+    @media screen and (max-width:768px) {
+        min-height: auto;
+    }
     position: relative;
     &::before {
         content: "";
