@@ -14,6 +14,9 @@
         font-weight: bold;
         // font-family: 'DM Serif Display', sans-serif;
         // color: $hijau;
+        @media screen and (max-width:768px) {
+            font-size: 1.1rem;
+        }
     }
     .all-sub-content {
         display: block;
